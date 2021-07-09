@@ -31,10 +31,14 @@
         "data": {
           "name": "家佳",
           "name_e": "Hilbert Boyle",
+          "real_name": "Lilla Balistreri",
           "company": "大國集團公司",
           "company_e": "",
           "job_title": "incidunt",
           "job_title_e": "",
+          "contact_email": "eleanora48@gmail.com",
+          "contact_phone": "(01)355-3957",
+          "contact_address": "678-61 南投縣竹山鎮工業東六街一段578號60樓",
           "bio": "Ullam alias magni fugiat at. Error earum aut aperiam cupiditate. Atque suscipit voluptas aut sed ullam architecto.",
           "bio_e": "Aliquam voluptatem iste tenetur nesciunt. Maiores consequatur labore minus voluptatum odio inventore magni. Vero suscipit debitis commodi fugit non.",
           "photo": "https://picsum.photos/200",
@@ -43,9 +47,11 @@
           "link_twitter": "http://oconnell.info/ut-et-iste-necessitatibus-reprehenderit",
           "link_other": "http://www.sporer.com/quis-eveniet-incidunt-quibusdam-illo-commodi-et-eaque",
           "link_slide": "",
+          "link_pre_video": "http://www.runte.net/",
+          "agree_act_change": 0,
           "topic": "Maxime nesciunt.",
           "topic_e": "Est aliquid sed eum quae in.",
-          "summary": "Repudiandae voluptatem placeat qui modi quia dignissimos. Tempora in ex saepe officiis sunt laborum. Quia eum qui totam dolor numquam.",
+          "summary": "Eum dolore illum assumenda vitae. Aut suscipit quidem ad quos. Et quos pariatur ut aut et. Soluta rerum similique voluptas qui. Sit nostrum doloribus quaerat molestias facilis in qui. Sit ea qui minima. Ea ut ratione aut asperiores. Odit eum officiis nostrum minima laboriosam. Itaque quidem id omnis maiores qui corporis tempora ducimus.",
           "summary_e": "Aut ducimus odio distinctio vitae. Iure delectus quam voluptatem iste reiciendis nisi et. Temporibus nihil repellat earum molestiae. Autem ut a eveniet omnis quidem. Eveniet ducimus et quaerat. Vitae porro sed molestiae architecto veritatis modi. Earum et consequuntur ut qui quas ex et. Neque eos dolore ut maiores perspiciatis dolor.",
           "tag": [
             0,
@@ -61,8 +67,12 @@
             13
           ],
           "level": 1,
+          "target_audience": "Doloribus laborum omnis esse voluptas nesciunt sit totam.",
+          "prerequisites": "Ut numquam voluptates ex suscipit ea aut omnis. Quisquam impedit facilis reiciendis illum ut a.",
+          "agree_record": 1,
           "license": 0,
           "promotion": 1,
+          "will_forward_posts": 0,
           "tshirt_size": 3,
           "need_parking_space": 0,
           "year": 2019,
@@ -166,6 +176,8 @@
             "以 CC BY-SA 3.0 姓名標示-相同方式授權。",
             "以 CC BY-NC 3.0 姓名標示-非商業性方式授權。",
             "謝絕所有錄音錄影，但接受 MOPCON 工作人員文字紀錄。",
+            "同意授予後製及上傳預錄影片及 Q&A 影片",
+            "同意授予後製及上傳預錄影片",
         ],
         "tshirtSizeItem": [
             "XS",
@@ -216,10 +228,14 @@
         + id [int]
         + name [string] 姓名
         + name_e [string] 英文名稱
+        + real_name [string] 真實姓名
         + company [string] 公司/組織
         + company_e [string] 公司/組織(英文)
         + job_title [string] 職稱
         + job_title_e [string] 職稱(英文)
+        + contact_phone [string] 聯絡電話
+        + contact_email [string] 聯絡信箱
+        + contact_address [string] 聯絡地址
         + bio [string] 個人介紹
         + bio_e [string] 個人介紹(英文)
         + photo [string] 照片
@@ -229,14 +245,20 @@
         + link_other [string] 其他(如Website/Blog)
         + link_slide [string] 投影片連結
         + link_video [string] 錄影檔影片連結
+        + link_pre_video [string] 預錄影片連結
+        + agree_act_change [int] 知悉活動會因狀況調整
         + topic [string] 演講主題
         + topic_e [string] 演講主題(英文)
         + summary [string] 演講摘要
         + summary_e [string] 演講摘要(英文)
         + tag [string] 標籤
         + level [int] 難易度
+        + target_audience [string] 目標會眾
+        + prerequisites [string] 先備知識
+        + agree_record [int] 授與錄影
         + license [int] 授權方式
         + promotion [int] 是否同意公開宣傳
+        + will_forward_posts [int] 是否願意轉發大會文章
         + tshirt_size_text [int] T-shirt 尺寸
         + need_parking_space [int] 您是否需有停車需求
         + has_dinner [int] 敬邀參加講者晚宴
@@ -255,10 +277,14 @@
         "data": {
         "name": "上官詩123321",
         "name_e": "edmond",
+        "real_name": "Lilla Balistreri",
         "company": "大宇有限公司",
         "company_e": "Hagenes, Beier and Hirthe",
         "job_title": "ipsum",
         "job_title_e": "Self-Enrichment Education Teacher",
+        "contact_email": "eleanora48@gmail.com",
+        "contact_phone": "(01)355-3957",
+        "contact_address": "678-61 南投縣竹山鎮工業東六街一段578號60樓",
         "bio": "Voluptas quia ut ipsam molestiae explicabo et consequuntur vero. Vitae sit iusto laudantium repellat vitae occaecati.",
         "bio_e": "Cum id suscipit et nemo. Labore aliquam aut qui. Suscipit dolore hic quisquam sed ut ab inventore tempora. Explicabo autem consequatur eum qui corrupti aperiam.",
         "photo": "https://picsum.photos/500",
@@ -267,9 +293,11 @@
         "link_twitter": "http://www.crona.com/quo-consequatur-nihil-blanditiis-fugiat-dolorum-totam",
         "link_other": "http://schumm.com/saepe-expedita-quidem-blanditiis-et-voluptatum-sed.html",
         "link_slide": "https://jakubowski.biz/officiis-minus-sint-ea-maxime-blanditiis-iste.html",
+        "link_pre_video": "http://www.runte.net/",
+        "agree_act_change": 0,
         "topic": "Reprehenderit.",
         "topic_e": "Ut est nemo voluptatem cum.",
-        "summary": "Culpa similique earum aliquid accusantium. Quo qui esse quibusdam modi laboriosam quibusdam. Iure praesentium explicabo et ad perferendis tempore. Facilis aut eum perspiciatis dolorem doloribus tempora pariatur ab.",
+        "summary": "Eum dolore illum assumenda vitae. Aut suscipit quidem ad quos. Et quos pariatur ut aut et. Soluta rerum similique voluptas qui. Sit nostrum doloribus quaerat molestias facilis in qui. Sit ea qui minima. Ea ut ratione aut asperiores. Odit eum officiis nostrum minima laboriosam. Itaque quidem id omnis maiores qui corporis tempora ducimus.",
         "summary_e": "Cumque voluptatem inventore sed sit. Pariatur assumenda eaque mollitia similique hic aliquid. Voluptatem quibusdam qui quis odit itaque deleniti voluptatem. Reprehenderit repellat dicta laboriosam vel non architecto voluptas. Voluptatem voluptatem et omnis illum maxime tenetur aut. Deserunt ullam ut rem laudantium cupiditate earum consectetur. Qui dolores eveniet possimus autem suscipit autem deserunt sapiente.",
         "tag": [
             5,
@@ -280,8 +308,12 @@
             15
         ],
         "level": 2,
+        "target_audience": "Doloribus laborum omnis esse voluptas nesciunt sit totam.",
+        "prerequisites": "Ut numquam voluptates ex suscipit ea aut omnis. Quisquam impedit facilis reiciendis illum ut a.",
+        "agree_record": 1,
         "license": 1,
         "promotion": 0,
+        "will_forward_posts": 0,
         "tshirt_size": 0,
         "need_parking_space": 1,
         "has_dinner": 1,
@@ -325,7 +357,7 @@
 
 + **Parameters**
 
-  + **filter :** `{'year': 1911-2020, 'status': 0}` [json] 篩選:年份及講者狀態
+  + **filter :** `{'year': 1911-2021, 'status': 0}` [json] 篩選:年份及講者狀態
   + **search :** 大國集團公司 [string] 搜尋演講主題/講者姓名/公司名
   + **orderby_field  :** id [string]
   + **orderby_method :** ASC [string] ASC/DESC
@@ -352,6 +384,7 @@
               "company_e": "Schinner PLC",
               "contact_email": "josefa.larkin@durgan.info",
               "contact_phone": "(088)043092",
+              "contact_address": "678-61 南投縣竹山鎮工業東六街一段578號60樓",
               "job_title": "fuga",
               "job_title_e": "Civil Engineering Technician",
               "bio": "Velit ab et eius et ipsa ex. Consequatur est reprehenderit eum qui. Ut corporis deserunt assumenda alias repudiandae.",
@@ -363,9 +396,11 @@
               "link_other": "http://www.beatty.com/dolorem-rerum-totam-porro-optio-consequatur-nemo-voluptatem.html",
               "link_video": "http://durgan.org/ipsum-rerum-quod-quisquam-cumque-error-exercitationem-illum",
               "link_slide": "http://ryan.com/soluta-ab-et-perspiciatis-distinctio.html",
+              "link_pre_video": "http://www.runte.net/",
+              "agree_act_change": 0,
               "topic": "Et aut.",
               "topic_e": "Quos distinctio sint illo.",
-              "summary": "Dignissimos sit enim aliquid. Molestiae laborum quo et perspiciatis ad accusantium saepe. Qui ut enim repudiandae ab molestiae.",
+              "summary": "Eum dolore illum assumenda vitae. Aut suscipit quidem ad quos. Et quos pariatur ut aut et. Soluta rerum similique voluptas qui. Sit nostrum doloribus quaerat molestias facilis in qui. Sit ea qui minima. Ea ut ratione aut asperiores. Odit eum officiis nostrum minima laboriosam. Itaque quidem id omnis maiores qui corporis tempora ducimus.",
               "summary_e": "Ut est et autem qui rerum est. Rerum qui facere ut sit maxime totam at autem. Dolorem est quo quidem qui deserunt vitae sed aliquid. Reprehenderit ratione voluptatem qui tempore sunt corporis sed. Vitae dolores sint nihil autem est qui. Minima necessitatibus ut distinctio. Quibusdam deleniti voluptatem eius quia.",
               "tag": [
                   0,
@@ -386,8 +421,12 @@
                   17
               ],
               "level": 1,
+              "target_audience": "Doloribus laborum omnis esse voluptas nesciunt sit totam.",
+              "prerequisites": "Ut numquam voluptates ex suscipit ea aut omnis. Quisquam impedit facilis reiciendis illum ut a.",
+              "agree_record": 1,
               "license": 1,
               "promotion": 0,
+              "will_forward_posts": 0,
               "tshirt_size": 1,
               "need_parking_space": 0,
               "has_dinner": 0,
@@ -400,7 +439,6 @@
               "last_edited_by": "",
               "access_key": "6ffbe188-204b-4f9d-a9b9-7191fcb453e9",
               "access_secret": "Ibc4WEPfeqmeQyQSAiDp",
-              "agree_record": 1,
               "year": 1974,
               "created_at": "2020-06-10 22:58:27",
               "updated_at": "2020-06-10 22:58:27",
@@ -441,6 +479,7 @@
               "company_e": "Casper-Kessler",
               "contact_email": "josefa.larkin@durgan.info",
               "contact_phone": "(088)043092",
+              "contact_address": "864-87 新竹縣竹北市四平路七段533巷308號",
               "job_title": "sit",
               "job_title_e": "Tax Preparer",
               "bio": "Officia qui ut et nemo perspiciatis. Asperiores consequatur et explicabo. Porro voluptatem aut repudiandae.",
@@ -452,9 +491,11 @@
               "link_other": "http://jast.net/dolorum-nihil-omnis-alias-beatae.html",
               "link_video": "http://keeling.com/",
               "link_slide": "http://www.heaney.net/nihil-doloribus-facilis-sit-ab-dolores-veniam",
+              "link_pre_video": "http://www.beatty.com/qui-fugit-est-suscipit",
+              "agree_act_change": 1,
               "topic": "Doloribus.",
               "topic_e": "Error non dolores voluptate.",
-              "summary": "Nesciunt et qui dolores. Amet maiores dolore repellat commodi quis. Eos cumque tempore quis praesentium est laborum quidem. Earum nobis dolores facere dicta rerum quisquam.",
+              "summary": "Expedita beatae quia nisi maxime sit sit. Deleniti voluptates odio ut consequatur facilis laborum in. Facilis ratione sit similique quia. Non quis ut impedit est. Aut tempore eum provident ea accusamus error reiciendis. Numquam et autem quo eius velit inventore. Dolor omnis in id consequuntur itaque. Quae earum sapiente a voluptas explicabo reprehenderit optio. Quo ducimus molestiae est eius doloremque necessitatibus. Quasi eligendi placeat distinctio perspiciatis.",
               "summary_e": "Qui est placeat et nihil blanditiis. Est iste et quia a minima nobis. Explicabo deleniti et adipisci explicabo aut sit et. Est et magnam iste quia molestiae. Et iusto non beatae voluptatibus asperiores voluptas. In error quod modi velit iste veritatis dolorum veniam. Est officiis doloribus praesentium delectus. Commodi rerum praesentium sed nulla ad quasi. Distinctio itaque unde rerum illo aspernatur veritatis.",
               "tag": [
                   1,
@@ -470,8 +511,12 @@
                   17
               ],
               "level": 0,
+              "target_audience": "Voluptatem quae sunt est dicta.",
+              "prerequisites": "Ducimus assumenda dolores iusto vitae. Accusantium atque quia dolorem.",
+              "agree_record": 1,
               "license": 3,
               "promotion": 1,
+              "will_forward_posts": 1,
               "tshirt_size": 4,
               "need_parking_space": 1,
               "has_dinner": 1,
@@ -484,7 +529,6 @@
               "last_edited_by": "",
               "access_key": "d5a953fa-86d1-4f4a-aeda-9a94c15c4b1d",
               "access_secret": "AHvI7ERciVbVBVFM21Zc",
-              "agree_record": 1,
               "year": 1984,
               "created_at": "2020-06-10 22:58:27",
               "updated_at": "2020-06-10 22:58:27",
@@ -606,6 +650,7 @@
               "company_e": "Rau-Koss",
               "contact_email": "josefa.larkin@durgan.info",
               "contact_phone": "(088)043092",
+              "contact_address": "795 新北市三重區富裕三路四段891號67樓",
               "job_title": "consectetur",
               "job_title_e": "Psychiatric Aide",
               "bio": "Aliquam voluptatem rerum tenetur inventore. Molestiae et quis occaecati quibusdam.",
@@ -617,9 +662,11 @@
               "link_other": "http://www.gibson.com/esse-ad-iure-sed-fuga-veniam.html",
               "link_video": "http://www.witting.org/voluptatem-et-ratione-est-voluptatibus-qui-aliquam-ut",
               "link_slide": "http://turcotte.info/neque-ut-sit-ipsum-labore-placeat-debitis-asperiores-est",
+              "link_pre_video": "http://www.feil.com/reiciendis-maiores-consequatur-quaerat-cupiditate-magni",
+              "agree_act_change": 0,
               "topic": "Aut est rem et.",
               "topic_e": "Totam est aliquid qui non non.",
-              "summary": "Dolores hic ducimus repellendus. Laborum facilis a beatae ab soluta non. Voluptas molestias minus et corporis praesentium. Quibusdam qui nihil fugit.",
+              "summary": "Molestiae vel minima esse hic doloremque quo voluptates. Qui quibusdam sequi vero dolores in voluptas. Eveniet vero quo sunt at et quaerat impedit. Quia sequi rerum et maiores. Ea natus enim et ut aut natus magni eum. Dolorem doloribus et quia numquam. Placeat quia hic eaque ipsum. Id fugit non et libero non. Illum incidunt omnis earum. Quaerat et optio amet exercitationem. Delectus corrupti quaerat ullam saepe voluptatem.",
               "summary_e": "Eligendi ab nemo qui sed nesciunt ut. Ipsam occaecati molestiae omnis laudantium. Quo quo sunt atque facere porro voluptatibus. Nostrum et vitae id vitae. Voluptas asperiores minus et consequuntur et aperiam. In at possimus eum nostrum quidem quia vel. Dolorem qui consequatur est temporibus.",
               "tag": [
                   1,
@@ -637,8 +684,12 @@
                   16
               ],
               "level": 1,
+              "target_audience": "Sint voluptate qui veniam dolorem.",
+              "prerequisites": "A velit voluptatibus quo enim odio sint ratione. Omnis tempora consequatur neque iure necessitatibus itaque aut quae.",
+              "agree_record": 1,
               "license": 3,
               "promotion": 0,
+              "will_forward_posts": 1,
               "tshirt_size": 3,
               "need_parking_space": 0,
               "has_dinner": 0,
@@ -651,7 +702,6 @@
               "last_edited_by": "",
               "access_key": "4553f671-347f-4270-ae1e-74317c7d0b7f",
               "access_secret": "CdFdh3ePqzURQ5P2uUOW",
-              "agree_record": 1,
               "year": 2007,
               "created_at": "2020-06-10 22:58:27",
               "updated_at": "2020-06-10 22:58:27",
@@ -709,7 +759,8 @@
         + job_title [string] 職稱
         + job_title_e [string] 職稱(英文)
         + contact_phone [string] 聯絡電話
-        + contact_email [string] 聯絡
+        + contact_email [string] 聯絡信箱
+        + contact_address [string] 聯絡地址
         + bio [string] 個人介紹
         + bio_e [string] 個人介紹(英文)
         + photo [string] 照片
@@ -719,15 +770,20 @@
         + link_other [string] 其他(如Website/Blog)
         + link_slide [string] 投影片連結
         + link_video [string] 錄影檔影片連結
+        + link_pre_video [string] 預錄影片連結
+        + agree_act_change [int] 知悉活動會因狀況調整
         + topic [string] 演講主題
         + topic_e [string] 演講主題(英文)
         + summary [string] 演講摘要
         + summary_e [string] 演講摘要(英文)
         + tag [string] 標籤
         + level [int] 難易度
+        + target_audience [string] 目標會眾
+        + prerequisites [string] 先備知識
         + agree_record [int] 授與錄影
         + license [int] 授權方式
         + promotion [int] 是否同意公開宣傳
+        + will_forward_posts [int] 是否願意轉發大會文章
         + tshirt_size_text [int] T-shirt 尺寸
         + need_parking_space [int] 您是否需有停車需求
         + has_dinner [int] 敬邀參加講者晚宴
@@ -753,6 +809,7 @@
             "company_e": "Hagenes, Beier and Hirthe",
             "contact_email": "josefa.larkin@durgan.info",
             "contact_phone": "(088)043092",
+            "contact_address": "606 宜蘭縣五結鄉泰昌五路769巷684弄675號94樓",
             "job_title": "ipsum",
             "job_title_e": "Self-Enrichment Education Teacher",
             "bio": "Voluptas quia ut ipsam molestiae explicabo et consequuntur vero. Vitae sit iusto laudantium repellat vitae occaecati.",
@@ -764,6 +821,8 @@
             "link_other": "http://schumm.com/saepe-expedita-quidem-blanditiis-et-voluptatum-sed.html",
             "link_video": "http://kiehn.com/fuga-eos-voluptatibus-et-eveniet-ut-est.html",
             "link_slide": "https://jakubowski.biz/officiis-minus-sint-ea-maxime-blanditiis-iste.html",
+            "link_pre_video": "http://morar.com/sit-sed-saepe-beatae-veritatis-unde-aut-possimus-maxime",
+            "agree_act_change": 1,
             "topic": "Reprehenderit.",
             "topic_e": "Ut est nemo voluptatem cum.",
             "summary": "Culpa similique earum aliquid accusantium. Quo qui esse quibusdam modi laboriosam quibusdam. Iure praesentium explicabo et ad perferendis tempore. Facilis aut eum perspiciatis dolorem doloribus tempora pariatur ab.",
@@ -777,8 +836,12 @@
                 15
             ],
             "level": 2,
+            "target_audience": "Ex reiciendis magni eum repellendus perferendis voluptatum.",
+            "prerequisites": "Nisi adipisci temporibus sed. Porro vel quasi quia. Earum reiciendis voluptatem est qui iusto voluptatem cum.",
+            "agree_record": 1,
             "license": 1,
             "promotion": 0,
+            "will_forward_posts": 1,
             "tshirt_size": 0,
             "need_parking_space": 1,
             "has_dinner": 1,
@@ -791,7 +854,6 @@
             "last_edited_by": "admin",
             "access_key": "b2b29fb5-7187-494b-9085-8ac8e0338747",
             "access_secret": "Q3p0O33FgNHWDsRhg6eD",
-            "agree_record": 1,
             "year": "2017",
             "created_at": "2020-06-10 22:58:27",
             "updated_at": "2020-06-29 21:03:10",

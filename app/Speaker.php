@@ -51,6 +51,7 @@ class Speaker extends Model
         '數位轉型',
         '遠距',
         'Community',
+        'Open Source',
     ];
     public static $levelItem = [
         'Basic-外行人可以藉此入門',
@@ -63,6 +64,8 @@ class Speaker extends Model
         '以 CC BY-SA 3.0 姓名標示-相同方式授權。',
         '以 CC BY-NC 3.0 姓名標示-非商業性方式授權。',
         '謝絕所有錄音錄影，但接受 MOPCON 工作人員文字紀錄。',
+        '同意授予後製及上傳預錄影片及 Q&A 影片',
+        '同意授予後製及上傳預錄影片'
     ];
     public static $tshirtSizeItem = [
         'XS',
@@ -108,15 +111,20 @@ class Speaker extends Model
         "link_other",
         "link_slide",
         "link_video",
+        "link_pre_video",
         "topic",
         "topic_e",
         "summary",
         "summary_e",
         "tag",
         "level",
+        "target_audience",
+        "prerequisites",
         "agree_record",
+        "agree_act_change",
         "license",
         "promotion",
+        "will_forward_posts",
         "tshirt_size",
         "need_parking_space",
         "year",
